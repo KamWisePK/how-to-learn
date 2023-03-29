@@ -7,19 +7,84 @@
   margin: 0 auto;
   /* выше для экранов больше 1600px отцентрировали весь контент */
   font-family: 'Helvetica Neue', Arial, sans-serif;
+  
 }
-
+h1, h2, h2{
+  margin: 0;
+}
 .header {
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
+  background-color: #f2f2f2;
+  margin: 0 auto;
+  position: relative;
+  border-color: blue ;
+  border-style: dashed;
+  position: relative;
+  display: flex;
+
+ 
+ 
   /* выше установили ограничения для секции */
+}
+.www {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.title {
+  width: 730px;
+  height: 200px;
+  line-height: 96px;
+  font-size: 102px;
+  font-weight: 600px;
+  border-color: red;
+  border-style: dashed;
+  margin-left: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.subtitle {
+
+line-height: 25px;
+font-size: 18px;
+font-style: normal;
+position: absolute;
+width: 388px;
+margin-bottom: 30px;
+margin-left: 64px;
+bottom: 0;
+border-color: blue ;
+border-style: dashed;
+z-index: 2;
+}
+.header_main-image {
+height: 608px;
+width: 765px;
+border-color: blue ;
+border-style: dashed;
+right: 0;
+bottom: 0;
+position: absolute;
+background-image: url('/images/header-image.png');
+background-size:cover ;
+z-index: 1;
 }
 
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
 .header__square-pic {
   height: 568px;
   width: 568px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  margin-top: 64px;
+  background-color:  #2f80ed
+ 
 }
 
 /* и элемента с модификатором вида ключ-значение */
