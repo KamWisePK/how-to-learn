@@ -67,6 +67,7 @@
   background-image: url("../images/header-image.png");
   background-size: cover;
   z-index: 1;
+  
 }
 
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
@@ -78,7 +79,7 @@
   top: 0;
   margin-top: 64px;
   background-color: #2f80ed;
-}
+  }
 
 .header__link {
   text-decoration: none;
